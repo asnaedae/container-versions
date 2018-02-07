@@ -1,0 +1,40 @@
+library/redis:
+  exclude:
+    - "latest"
+library/kapacitor:
+  exclude:
+    - "latest"
+library/telegraf:
+  exclude:
+    - "latest"
+google/cadvisor:
+  exclude:
+    - "canary"
+    - "latest"
+grafana/grafana:
+  exclude:
+    - "master"
+homeassistant/home-assistant:
+  exclude:
+    - "dev"
+library/chronograf:
+  exclude:
+    - "latest"
+    - "alpine"
+prom/prometheus:
+  exclude:
+    - "master"
+library/mysql:
+  exclude:
+    - "5.5"
+    - "5.5.58"
+    - "5.5.59"
+    - "5.6"
+library/influxdb:
+  exclude:
+    - "meta"
+    - "data"
+    - "meta-alpine"
+library/traefik:
+  exclude:
+    - "alpine"
